@@ -1,7 +1,7 @@
 import React from "react";
 import { FaPaw } from "react-icons/fa";
 import { linklst } from "../utils/homesettings";
-import footer1 from "../assets/container.png";
+import footer1 from "../assets/conatainer.png";
 import footer2 from "../assets/container1.png";
 import footer3 from "../assets/container2.png";
 import footer4 from "../assets/container3.png";
