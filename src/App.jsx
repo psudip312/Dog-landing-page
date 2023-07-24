@@ -7,6 +7,8 @@ import Blogs from "./pages/blogs/Blogs";
 import Services from "./pages/services/Services";
 import { Navbar, Slider } from "./components/Index";
 import About from "./pages/about/About";
+import Collection from "./pages/collections/Collection";
+import CollectionsCard from "./pages/collections/CollectionsCard";
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
         <Services />
         <About />
       </div>
+      <Collection/>
     </>
   );
 }

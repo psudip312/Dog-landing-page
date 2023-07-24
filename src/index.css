@@ -218,13 +218,16 @@ input:focus {
   background: #17224D;
 }
 .textcolordarblue{
-  color: #17224D;
+  text: #17224D;
 }
 .darrk{
   background: #292929;
 }
 .grey{
   background: #292929;
+}
+.textgrey{
+text:#292929;
 }
 .textgray{
   text: #515151;
