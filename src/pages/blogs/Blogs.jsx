@@ -30,11 +30,11 @@ const Blogs = () => {
   ];
 
   return (
-    <div className="max-h-1120px py-16">
+    <div className="py-16">
       <div className="textcolordarblue fontnunito text-[45px] font-[800] leading-[60px] mb-10 text-center">
         Our Blogs
       </div>
-      <div className="flex gap-6 justify-center">
+      <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
         <BlogsCard blogs={blogsData} />
       </div>
     </div>

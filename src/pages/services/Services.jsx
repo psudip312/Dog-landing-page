@@ -55,22 +55,22 @@ const Services = () => {
 
   return (
     <>
-      <div className="box mx-auto">
+      <div className="px-3 lg:px-[12%]">
         <div className="textcolordarblue fontnunito text-[45px] font-[800] leading-[60px] mb-4 text-center">
           Our Services
         </div>
         <div className="mb-12">
-        <p className="fontnunito text-center text-[22px] font-[500] leading-[32px]">
+        <p className="fontnunito text-center lg:text-[22px] font-[500] leading-[32px]">
         We provide a wide range of products & services for pets such as food,
-        toys, grooming supplies, and veterinary care.
+        toys, grooming supplies, and veterinary care. We aim to meet the needs of pet owners and ensure the health and happiness of their furry
+        friends.
       </p>
-      <p className="fontnunito text-center text-[22px] font-[500] leading-[32px]">
-      We aim to meet the needs of pet owners and ensure the health and happiness of their furry
-      friends.
+      <p className="fontnunito text-center lg:text-[22px] font-[500] leading-[32px]">
+    
     </p>
         </div>
      
-        <div className="flex flex-wrap ">    
+        <div className=" ">    
           <ServiceCard services={servicesData} />
         </div>
       </div>

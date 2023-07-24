@@ -18,11 +18,12 @@ function App() {
       </section>
       <Navbar />
       <div className="flex flex-col gap-24">
-      <Slider />
-      <About />
-      <Services />
+        <Slider />
+        <About />
+        <Services />
       </div>
-      <div className="p-[96px]">      <Collection  />
+      <div className="py-[96px] px-3 lg:px-[10%]">
+        <Collection />
       </div>
       <Section />
       <Blogs />

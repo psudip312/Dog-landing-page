@@ -3,9 +3,9 @@ const CollectionsCard = (props) => {
   const { imageSrc, title, gender, age } = props;
 
   return (
-    <div className="w-[280px] h-[350px] p-1 rounded border border-purple-200 shadow-lg">
+    <div className="w-full lg:w-[280px] lg:h-[350px] p-1 rounded border border-purple-200 shadow-lg">
       <div>
-        <img src={imageSrc} alt="Collection" />
+        <img className="w-full object-cover" src={imageSrc} alt="Collection" />
       </div>
       <div className="m-2">
         <p className="textcolordarblue text-left mb-2 fontnunito text-[16px] font-[800] leading-[24px]">

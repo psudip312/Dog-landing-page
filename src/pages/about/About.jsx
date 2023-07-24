@@ -10,8 +10,8 @@ import arrow1 from "./arrow1.png"
 
 const About = () => {
   return (
-    <div className="box flex flex-row justify-between">
-      <div class="w-[523.81px] h-[605.21px] relative">
+    <div className="px-3 lg:px-[12%] flex flex-row justify-between">
+      <div className="hidden md:flex w-[523.81px] h-[605.21px] relative">
         <div className=" rounded-lg">
           <img
             src={img1}
@@ -32,14 +32,14 @@ const About = () => {
         <img src={img4} alt="vector1" class="absolute top-0 right-0 " />
         <img src={img5} alt="vector2" class="absolute bottom-4 left-20" />
       </div>
-      <div className="w-1/2 py-24">
+      <div className="lg:w-1/2 py-24">
         <div>
           <p className="textcolordarblue fontnunito text-[45px] font-[800] leading-[60px] mb-4">
             About Us
           </p>
         </div>
         <p
-          className="h-[96px] w-[510.07px] textgray fontnunito text-[22px] font-[500] leading-[32px] mb-8"
+          className="w-fulll lg:h-[96px]  textgray fontnunito text-[22px] font-[500] leading-[32px] mb-8"
         >
           Pet House & Animal clinic was established with moto to provide
           qualitative and affordable animal healthcare service to your doorstep.

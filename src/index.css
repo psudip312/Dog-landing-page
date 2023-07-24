@@ -54,10 +54,7 @@ nav {
   padding-block: 1%;
   justify-content: space-between;
 }
-.box{
-  padding-inline: 5%;
 
-}
 
 .nav-links {
   display: flex;

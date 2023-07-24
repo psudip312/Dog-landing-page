@@ -71,7 +71,7 @@ const Navbar = () => {
         </div>
         <div className=" nav-options ">
           <AiFillHeart className="heart-icon" />
-          <div className="nav-cart relative flex flex-row items-center   xl:pr-[22.15625px] xl:pt-[16px] xl:pb-[17px] xl:pl-[22px]lg:rounded-[8px]  xl:border-[1px] xl:border-[#007fff] xl:border-solid xl:gap-[11.421875px] xl:rounded-[8px]">
+          <div className="nav-cart relative flex flex-row items-center   xl:pr-[22.15625px] xl:pt-[16px] xl:pb-[17px] xl:pl-[22px] lg:rounded-[8px]  xl:border-[1px] xl:border-[#007fff] xl:border-solid xl:gap-[11.421875px] xl:rounded-[8px]">
             <HiShoppingCart className="icon" />
             <span className=" xl:after:content-['items'] xl:after:ms-2 xl:static xl:text-[1rem] xl:w-min xl:h-min xl:bg-transparent xl:top-0 absolute top-[-15px] right-[-2px] text-[9px] h-[15px] w-[15px] bg-red-500 flex flex-row items-center justify-center rounded-[50px] text-white xl:text-black  xl:translate-y-0 ">
               2
