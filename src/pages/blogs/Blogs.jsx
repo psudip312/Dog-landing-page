@@ -31,7 +31,7 @@ const Blogs = () => {
 
   return (
     <div className="max-h-1120px py-16">
-      <div className="text-paragraph text-center mb-5 textcolorblue text-[45px] font-[800] leading-[60px]">
+      <div className="textcolordarblue fontnunito text-[45px] font-[800] leading-[60px] mb-10 text-center">
         Our Blogs
       </div>
       <div className="flex gap-6 justify-center">

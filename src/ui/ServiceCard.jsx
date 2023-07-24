@@ -23,7 +23,7 @@ const ServiceCard = ({ services }) => {
             </div>
           </div>
           <div className="flex items-center justify-center  mt-4 ">
-          <button className=" py-[12px] rounded px-[12px] text-[12px] font-[600] leading-[20px] fontinter text-white bgdarkblue">
+          <button className=" py-[12px] rounded-[5px] px-[12px] text-[12px] font-[600] leading-[20px] fontinter text-white bgdarkblue">
             View More
           </button>
         </div>

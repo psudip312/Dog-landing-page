@@ -1,12 +1,12 @@
 import doggroup from "../assets/doggroup.png";
 const linklst = [
-  { id: 1, text: "home" },
+  { id: 1, text: "Home" },
 
-  { id: 2, text: "about" },
-  { id: 3, text: "services" },
-  { id: 4, text: "breeds" },
-  { id: 5, text: "shop" },
-  { id: 6, text: "gallery" },
+  { id: 2, text: "About" },
+  { id: 3, text: "Services" },
+  { id: 4, text: "Breeds" },
+  { id: 5, text: "Shop" },
+  { id: 6, text: "Gallery" },
 ];
 
 const slidelst = [

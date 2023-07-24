@@ -8,6 +8,8 @@ import col5 from "./col5.png";
 import col6 from "./col6.png";
 import col7 from "./col7.png";
 import col8 from "./col8.png";
+import { BsArrowRightCircle } from "react-icons/bs";
+import arrow1 from './arrow1.png'
 
 const Collection = () => {
     const collectionsData = [
@@ -65,7 +67,7 @@ const Collection = () => {
     <div>
     <div className='box text-center'>
     <p className="textcolordarblue fontnunito text-[45px] font-[800] leading-[60px]">Our Pet Collections</p>
-    <p className="textgray fontnunito text-[22px] font-[500] leading-[32px]">"Bring joy to your home with a furry companion from our pet selection."</p>
+    <p className="textgray fontnunito text-[22px] font-[500] leading-[32px] mb-12">"Bring joy to your home with a furry companion from our pet selection."</p>
    
     <div className='flex flex-wrap gap-5 justify-center'>
     {collectionsData.map((collection, index) => (
@@ -78,6 +80,16 @@ const Collection = () => {
       />
     ))}
   </div>
+  <div className='flex justify-center mt-6'>
+  <div className="w-[160.87px] h-[50px] left-[705.93px] rounded-[25px] bgbluecolor flex gap-6 items-center">
+  <p className="fontinter text-[15px] ml-6 font-[600] leading-[32px] text-white">
+  View All</p>
+  <div className=' flex items-center justify-center w-[32px] h-[32px] rounded-full bg-white'>
+  <img src={arrow1}/>
+  </div>
+  </div>
+  </div>
+  
     </div>
     </div>
   )
